@@ -6,6 +6,9 @@ jobs:
     first_jobs:
         runs-on: ubuntu-latest
         steps:
+           - name: Checkout Repo
+             run:  actions/checkout@v5
+
            - name: Display name
              run: echo "Hello world"
 
