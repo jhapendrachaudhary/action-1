@@ -15,5 +15,5 @@ jobs:
            - name: Go to main main directory
              run: cd ..
 
-           - name: Read file
-             run: cat README.md
+           - name: Current Folder
+             run: pwd
